@@ -7,7 +7,7 @@ const Studenttable = () => {
   useEffect(() => {
     const fetchStudents = async () => {
       try {
-        const response = await fetch('http://172.16.100.112:8181/api/student/fetchAllStudents'); 
+        const response = await fetch('http://172.25.0.105:8181/api/student/fetchAllStudents'); 
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }

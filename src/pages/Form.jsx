@@ -22,7 +22,7 @@ const Form = () => {
       password: password,
     };
 
-    fetch('http://172.16.100.112:8181/api/student/addStudent', {
+    fetch('http://172.25.0.105:8181/api/student/addStudent', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -54,7 +54,7 @@ const Form = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-blue-100">
+    <div className="flex items-center justify-center min-h-screen bg-green-200">
       <div className="bg-white p-6 rounded-lg shadow-lg w-80 text-center">
         <h2 className="mb-6 font-bold text-2xl">LOGIN</h2>
         <form onSubmit={handleSubmit} className="flex flex-col items-start">

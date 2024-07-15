@@ -8,10 +8,12 @@ const Navbar = () => {
         <div className="flex space-x-1">
           <Link to="/" className="text-white hover:text-gray-200">Home</Link>
         </div>
-        <div className="flex justify-between items-center space-x-4">
+        <div className="flex justify-end  space-x-10">
           <Link to="/table" className="text-white hover:text-gray-200">Data</Link>
           <Link to="/form" className="text-white hover:text-gray-200">Student Form</Link>
-          <Link to="/courses" className="text-white hover:text-gray-200">Courses Form</Link>
+          <Link to="/courses.form" className="text-white hover:text-gray-200">Courses Form</Link>
+          
+          
         </div>
       </div>
     </nav>
